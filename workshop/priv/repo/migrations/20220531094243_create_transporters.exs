@@ -8,6 +8,7 @@ defmodule Workshop.Repo.Migrations.CreateTransporters do
       add :phone_number, :string
       add :npwp_number, :string
       add :status, :string
+      add :vehicle_id, :integer
 
       timestamps()
     end
